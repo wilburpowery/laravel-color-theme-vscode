@@ -92,8 +92,7 @@
 		{
 			"name": "Keywords",
 			"scope": [
-				"keyword",
-				"storage"
+				"keyword"
 			],
 			"settings": {
 				"foreground": "#0077af"
@@ -114,7 +113,8 @@
 		{
 			"name": "Types",
 			"scope": [
-				"storage.type",
+				"storage.type.function",
+				"storage.modifier",
 				"support.type"
 			],
 			"settings": {
@@ -165,7 +165,9 @@
 			"name": "Parameter Typehints",
 			"scope": [
 				"meta.function.parameter.typehinted.php",
-				"storage.type.php"
+				"meta.function.parameter.typehinted.php",
+				"meta.function.parameters.php",
+				"meta.function.php"
 			],
 			"settings": {
 				"foreground": "#000000"
@@ -174,7 +176,6 @@
 		{
 			"name": "Function Parameters",
 			"scope": [
-				"meta.function.parameter.typehinted.php",
 				"meta.function.parameters.php",
 				"variable.other.php",
 				"punctuation.definition.entity.css"
