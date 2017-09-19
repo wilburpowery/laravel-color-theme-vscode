@@ -115,6 +115,7 @@
 			"scope": [
 				"storage.type.function",
 				"storage.modifier",
+				"storage.type.class.php",				
 				"support.type"
 			],
 			"settings": {
@@ -190,9 +191,9 @@
 			"scope": [
 				"entity.name.type",
 				"entity.other.inherited-class",
-				"support.class",
 				"source.php",
 				"meta.embedded.block.php",
+				"meta.class.php",
 				"text.html.php",
 				"support.other.namespace.php",
 				"support.other.namespace.use-as.php"
@@ -205,7 +206,6 @@
 			"name": "Parameters Classes",
 			"scope": [
 				"meta.method-call.php",
-				"source.php",
 				"meta.embedded.block.php",
 				"text.html.php",
 				"meta.function-call.static.php"
@@ -336,7 +336,6 @@
 		{
 			"name": "Static Class Declaration",
 			"scope": [
-				"source.php",
 				"meta.embedded.block.php",
 				"text.html.php",
 				"text.html.php.laravel-blade"
