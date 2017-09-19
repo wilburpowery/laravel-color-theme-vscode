@@ -2,7 +2,7 @@
     "name": "laravel-docs-inspired-theme",
     "displayName": "Laravel Documentation Inspired Theme",
     "description": "The Laravel.com documentation inspired theme for VSCode",
-    "version": "0.0.1",
+    "version": "0.1.0",
     "publisher": "wilburpowery",
     "engines": {
         "vscode": "^1.16.0"
