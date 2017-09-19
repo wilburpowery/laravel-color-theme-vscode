@@ -1,7 +1,7 @@
 {
-    "name": "laravel-docs-color",
-    "displayName": "Laravel-Docs-Color",
-    "description": "The Laravel.com Documentation Color Scheme for VSCode",
+    "name": "laravel-docs-inspired-theme",
+    "displayName": "Laravel Documentation Inspired Theme",
+    "description": "The Laravel.com documentation inspired theme for VSCode",
     "version": "0.0.1",
     "publisher": "wilburpowery",
     "engines": {
