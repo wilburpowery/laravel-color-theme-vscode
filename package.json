@@ -1,0 +1,22 @@
+{
+    "name": "laravel-docs-color",
+    "displayName": "Laravel-Docs-Color",
+    "description": "The Laravel.com Documentation Color Scheme for VSCode",
+    "version": "0.0.1",
+    "publisher": "wilburpowery",
+    "engines": {
+        "vscode": "^1.16.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Laravel Docs Color",
+                "uiTheme": "vs",
+                "path": "./themes/Laravel Docs Color-color-theme.json"
+            }
+        ]
+    }
+}
