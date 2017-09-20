@@ -191,23 +191,27 @@
 			"scope": [
 				"entity.name.type",
 				"entity.other.inherited-class",
-				"source.php",
-				"meta.embedded.block.php",
-				"meta.class.php",
-				"text.html.php",
 				"support.other.namespace.php",
-				"support.other.namespace.use-as.php"
+				"support.other.namespace.use-as.php",
+				"support.class.php"
 			],
 			"settings": {
 				"foreground": "#000000"
 			}
 		},
 		{
+			"name": "Static Classes",
+			"scope": [
+				"source.php meta.embedded.block.php text.html.php"
+			],
+			"settings": {
+				"foreground": "#ea4a42"
+			}
+		},
+		{
 			"name": "Parameters Classes",
 			"scope": [
 				"meta.method-call.php",
-				"meta.embedded.block.php",
-				"text.html.php",
 				"meta.function-call.static.php"
 			],
 			"settings": {
@@ -305,8 +309,7 @@
 		{
 			"name": "Punctuation for Variable Declaration",
 			"scope": [
-				"variable.other.php",
-				"entity.name.function.laravel-blade"
+				"variable.other.php"
 			],
 			"settings": {
 				"foreground": "#32a1e5"
@@ -324,10 +327,7 @@
 		{
 			"name": "Language Constant This $",
 			"scope": [
-				"variable.language.this.php",
-				"source.php",
-				"meta.embedded.block.php",
-				"text.html.php"
+				"variable.language.this.php"
 			],
 			"settings": {
 				"foreground": "#000000"
@@ -335,10 +335,16 @@
 		},
 		{
 			"name": "Static Class Declaration",
+			"scope": ["meta.embedded.block.php", "entity.name.class"],
+			"settings": {
+				"foreground": "#ea4a42"
+			}
+		},
+		{
+			"name": "use + Class Name",
 			"scope": [
-				"meta.embedded.block.php",
-				"text.html.php",
-				"text.html.php.laravel-blade"
+				"meta.class.body.php",
+				"meta.class.php"
 			],
 			"settings": {
 				"foreground": "#ea4a42"
@@ -366,24 +372,26 @@
 				"foreground": "#AAAAAA"
 			}
 		},
+
 		{
-			"name": "HTML and Blade text",
+			"name": "Blade @",
 			"scope": [
-				"text.html.php",
-				"text.html.php.laravel-blade"
+				"custom.compiler.blade.php",
+				"punctuation.section.embedded.php",
+				"constant.other.inline-data.html"
 			],
 			"settings": {
 				"foreground": "#000000"
 			}
 		},
+
 		{
 			"name": "Blade Functions",
 			"scope": [
-				"entity.name.function.laravel-blade",
-				"source.php.embedded.line.html"
+				"entity.name.function.laravel-blade"
 			],
 			"settings": {
-				"foreground": "#999999"
+				"foreground": "#32a1e5"
 			}
 		},
 		{
